@@ -1,71 +1,72 @@
+/* paleta de colores*/
 body {
-    overflow-x: hidden;
-    position: relative;
-    padding-bottom: 3em;
-    min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 100vh;
 }
 
 /* menu */
 #menu a {
-    font-size: 18px;
-    font-weight: bold;
-    color: #3f3f3f;
+  font-size: 18px;
+  font-weight: bold;
+  color: #414141;
 }
 
 /* imagenes */
 .carousel-inner {
-    max-height: 35rem;
+  max-height: 35rem;
 }
 
 /* turismo costa rica */
 @media screen and (max-width: 768px) {
-    .turismo-cr {
-        text-align: center;
-    }
+  .turismo-cr {
+    text-align: center;
+  }
 }
-
 @media screen and (max-width: 992px) {
-    .turismo-cr {
-        text-align: center;
-    }
+  .turismo-cr {
+    text-align: center;
+  }
 }
-
-/* contacto */
-
-
+/* paleta de colores*/
 /* contacto formulario */
-#contenedor-form { 
-    margin-top: 80px;
-    padding: 30px;
-    background-color: #fbfafa;
-    border-radius: 5px;
-    max-width: 500px;
-    box-shadow: 7px 13px 37px #3f3f3f;
+#contenedor-form {
+  margin-top: 80px;
+  padding: 30px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  max-width: 500px;
+  box-shadow: 7px 13px 37px #414141;
 }
 
 @media screen and (max-width: 992px) {
-    #contenedor-form {
-        width: 75%;
-    }
+  #contenedor-form {
+    width: 75%;
+  }
 }
-
+/* paleta de colores*/
 /* footer */
 footer {
-    background-color: #000000;
-    min-height: 60px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+  background-color: #010101;
+  min-height: 60px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
-
 footer p {
-    color: #f3f3f3;
-    text-align: center;
+  color: #ffffff;
+  text-align: center;
+}
+footer p:hover {
+  color: #7c3131;
 }
 
 #iconos i {
-    font-size:  26px;
-    padding: 0 15px;
-    color: #f3f3f3;
-    text-align: center;
+  font-size: 26px;
+  padding: 0 15px;
+  color: #ffffff;
+  text-align: center;
 }
+
+/*# sourceMappingURL=styles.css.map */

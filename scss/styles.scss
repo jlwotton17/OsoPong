@@ -1,0 +1,19 @@
+@import "variables";
+
+body {
+    overflow-x: hidden;
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+}
+
+/* menu */
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: $color-cuatro;
+}
+
+@import "index";
+@import "formulario";
+@import "footer";
