@@ -14,6 +14,22 @@ body {
     color: $color-cuatro;
 }
 
+/*map*/
+$fontSize: (
+    h1: 38px,
+    h2: 29px,
+    h3: 20px,
+    h4: 18px,
+    p: 18px
+);
+
+@each $tag, $size in $fontSize {
+    #{$tag} {
+        font-size: $size;
+    }
+}
+
+
 @import "index";
 @import "formulario";
 @import "footer";
