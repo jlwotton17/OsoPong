@@ -5,6 +5,7 @@ body {
     position: relative;
     padding-bottom: 3em;
     min-height: 100vh;
+    background-color: $color-dos;
 }
 
 /* menu */
@@ -31,5 +32,7 @@ $fontSize: (
 
 
 @import "index";
-@import "formulario";
+@import "nosotros";
+@import "concurso";
+@import "contacto";
 @import "footer";

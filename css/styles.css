@@ -4,6 +4,7 @@ body {
   position: relative;
   padding-bottom: 3em;
   min-height: 100vh;
+  background-color: #f7f4f4;
 }
 
 /* menu */
@@ -51,11 +52,108 @@ p {
   }
 }
 /* paleta de colores*/
+/*nosotros*/
+.grid_nosotros {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+  grid-template-areas: "nosotros nosotros" "empresa empresa" "img-mono img-mono2" "lorem lorem" "img-luces img-luces";
+}
+
+.nosotros {
+  grid-area: nosotros;
+}
+
+.empresa {
+  grid-area: empresa;
+}
+
+.img-mono {
+  grid-area: img-mono;
+}
+
+@media screen and (max-width: 767px) {
+  .img-mono img {
+    width: 170px;
+    height: 170px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .img-mono img {
+    width: 350px;
+    height: 350px;
+  }
+}
+.img-mono2 {
+  grid-area: img-mono2;
+}
+
+@media screen and (max-width: 767px) {
+  .img-mono2 img {
+    width: 170px;
+    height: 170px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .img-mono2 img {
+    width: 350px;
+    height: 350px;
+  }
+}
+.lorem {
+  grid-area: lorem;
+}
+
+.img-luces {
+  grid-area: img-luces;
+}
+
+/* paleta de colores*/
+/*cards reglas del juego*/
+.caja_reglas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card__reglas {
+  background-color: #f7f4f4;
+  width: 300px;
+  border: solid 2px black;
+  border-radius: 20px;
+  margin: 30px;
+  padding: 20px;
+  box-shadow: 7px 13px 37px #414141;
+}
+
+.card__img {
+  display: block;
+  width: 230px;
+  height: 230px;
+  border: solid 2px #010101;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.card__parrafo {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card__parrafo--descripcion {
+  color: #010101;
+  text-align: center;
+}
+
+/* paleta de colores*/
 /* contacto formulario */
 #contenedor-form {
   margin-top: 80px;
   padding: 30px;
-  background-color: #e0e0e0;
+  background-color: #f7f4f4;
   border-radius: 5px;
   max-width: 500px;
   box-shadow: 7px 13px 37px #414141;
@@ -75,12 +173,15 @@ footer {
   bottom: 0;
   width: 100%;
 }
+footer a {
+  text-decoration: none;
+}
 footer p {
   color: #ffffff;
   text-align: center;
 }
 footer p:hover {
-  color: #7c3131;
+  color: #09b953;
 }
 
 #iconos i {
@@ -88,6 +189,9 @@ footer p:hover {
   padding: 0 15px;
   color: #ffffff;
   text-align: center;
+}
+#iconos i:hover {
+  color: #09b953;
 }
 
 /*# sourceMappingURL=styles.css.map */

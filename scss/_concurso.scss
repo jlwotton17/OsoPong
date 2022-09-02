@@ -1,0 +1,43 @@
+@import "variables";
+
+/*cards reglas del juego*/
+@mixin flex-row-space-evenly {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.caja_reglas {
+    @include flex-row-space-evenly
+}
+
+.card__reglas {
+    background-color: $color-dos;
+    width: 300px;
+    border: solid 2px black;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 7px 13px 37px $color-cuatro;
+}
+
+.card__img {
+    display: block;
+    width: 230px;
+    height: 230px;
+    border: solid 2px $color-cinco;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.card__parrafo {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card__parrafo--descripcion {
+    color: $color-cinco;
+    text-align: center;
+}
