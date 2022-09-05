@@ -1,0 +1,17 @@
+@import "variables";
+
+/* contacto formulario */
+#contenedor-form { 
+    margin-top: 80px;
+    padding: 30px;
+    background-color: $color-dos;
+    border-radius: 5px;
+    max-width: 500px;
+    box-shadow: 7px 13px 37px $color-cuatro;
+}
+
+@media screen and (max-width: 992px) {
+    #contenedor-form {
+        width: 75%;
+    }
+}
